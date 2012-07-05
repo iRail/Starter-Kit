@@ -2862,9 +2862,8 @@ input[type="submit"].btn.btn-mini {
 
 .brand {
     background-image: url(../img/logo_white.png);
-    text-indent: -9999px;
+    text-indent: 40px;
     background-repeat: no-repeat;
-    width: 60px;
 }
 
 .navbar .navbar-text {
