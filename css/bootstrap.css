@@ -142,11 +142,12 @@ body {
 a {
   color: #CC2929 ;
   text-decoration: none;
+}
+p a{
   border-bottom: 1px solid #CC2929;
 }
 a:hover {
   color: #FF7D7D;
-  text-decoration: underline;
   border-color: #FF7D7D;
 }
 .row {
@@ -566,7 +567,7 @@ pre {
 }
 code {
   padding: 2px 4px;
-  color: #d14;
+  color: #FF7D7D;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
 }
