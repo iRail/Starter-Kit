@@ -133,7 +133,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #333333;
@@ -921,7 +921,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 label {
   display: block;
@@ -2925,7 +2925,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4921,3 +4921,37 @@ button.close {
     overflow: visible !important;
   }
 }
+
+/* #Font-Face
+================================================== */
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PT Sans'), url('../fonts/PTS55F_W.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'PT Sans italic';
+    font-style: italic;
+    font-weight: normal;
+    src: local('PT Sans'), url('../fonts/PTS56F_W.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PT Sans Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('PT Sans'), url('../fonts/PTS75F_W.woff') format('woff');
+}
+}
+
+@font-face {
+    font-family: 'PT Sans bold italic';
+    font-style: italic;
+    font-weight: bold;
+    src: local('PT Sans'), url('../fonts/PTS76F.woff') format('woff');
+}
+    
