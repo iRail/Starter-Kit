@@ -1554,6 +1554,11 @@ legend + .control-group {
 .form-horizontal .form-actions {
   padding-left: 160px;
 }
+
+.socialbtn{
+  margin: 10px 10px 0 0;
+}
+
 .btn {
   display: inline-block;
   *display: inline;
