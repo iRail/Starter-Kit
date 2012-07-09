@@ -1556,89 +1556,60 @@ legend + .control-group {
   padding-left: 160px;
 }
 
-.socialbtn-small li{
-  list-style: none;
-  display: inline;
-  margin: 10px 10px 0 0;
-}
-
-  .socialbtn-small{
-    margin: 0;
-  }
-
-.socialbtn-big {
-  list-style: none;
-  display: inline;
-  margin: 10px 10px 0 0;
-}
-
-.socialbtn-long li{
-  list-style: none;
+.btn-long{
+  width: 150px;
+  margin: 5px 0 5px 0;
+  background-size: 150px 70px;
+  height: 22px;
+  background-repeat: no-repeat;
   text-indent: -999px;
-  margin: 5px 0 0 0;
 }
+    .btn-long:hover{
+     background-position: 0 -24px;
+    }
 
-  .socialbtn-long{
-    margin: 10px 0 0 0;
-    width: 150px;
-  }
+    .btn-long:active{
+     background-position: 0 -48px;
+    }
 
-  .socialbtn-long a{
-    height: 22px;
-    width: 150px;
-    line-height: 22px;
-  }
+      .twitter-long{
+        background-image: url(../img/twitter_signin.png) ;
+      }
 
-  .twitter{
-    background-image: url(../img/twitter_signin.png) ;
+      .facebook-long{
+        background-image: url(../img/facebook_signin.png) ;
+      }
+
+      .foursquare-long{
+        background-image: url(../img/foursquare_signin.png) ;
+      }
+
+      .vikingspots-long{
+        background-image: url(../img/vikingspots_signin.png) ;
+      }
+
+  .btn-square{
     background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    margin: 5px 0 5px 0;
+    text-indent: -999px;
   }
 
-    .twitter:hover{
-      background-position: 0 -24px;
+    .twitter-square{
+      background-image: url(../img/twitter_36px.png) ;
     }
 
-    .twitter:active{
-      background-position: 0 -48px;
+    .facebook-square{
+      background-image: url(../img/facebook_36px.png) ;
     }
 
-  .facebook{
-    background-image: url(../img/facebook_signin.png) ;
-    background-repeat: no-repeat;
-  }
-
-    .facebook:hover{
-      background-position: 0 -24px;
+    .foursquare-square{
+      background-image: url(../img/foursquare_36px.png) ;
     }
 
-    .facebook:active{
-      background-position: 0 -48px;
-    }
-
-  .foursquare{
-    background-image: url(../img/foursquare_signin.png) ;
-    background-repeat: no-repeat;
-  }
-
-    .foursquare:hover{
-      background-position: 0 -24px;
-    }
-
-    .foursquare:active{
-      background-position: 0 -48px;
-    }
-
-  .vikingspots{
-    background-image: url(../img/vikingspots_signin.png) ;
-    background-repeat: no-repeat;
-  }
-
-    .vikingspots:hover{
-      background-position: 0 -24px;
-    }
-
-    .vikingspots:active{
-      background-position: 0 -48px;
+    .vikingspots-square{
+      background-image: url(../img/vikingspots_36px.png) ;
     }
 
 .btn {
