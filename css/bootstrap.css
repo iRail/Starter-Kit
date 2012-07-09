@@ -1556,8 +1556,8 @@ legend + .control-group {
   padding-left: 160px;
 }
 
-[class^="btn-social-"],
-[class*=" btn-social-"] {
+[class^="social-"],
+[class*=" social-"] {
   display: inline-block;
   background-image: url("../img/signin_sprite.png");
   background-repeat: no-repeat;
@@ -1565,109 +1565,113 @@ legend + .control-group {
   margin: 5px 0 0 0;
 }
 
-[class^="btn-social-long-"],
-[class*=" btn-socila-long-"] {
+[class^="social-long-"],
+[class*=" social-long-"] {
   width: 152px;
   height: 23px;
 }
 
-  .btn-social-long-twitter:hover{
+.social-long-twitter:hover{
+    background-image: url("../img/signin_sprite.png");
+}
+
+  .social-long-twitter:hover{
     background-position: 0 -24px;
   }
 
-  .btn-social-long-twitter:active{
+  .social-long-twitter:active{
     background-position: 0 -48px;
   }
 
-.btn-social-long-vikingspots{
+.social-long-vikingspots{
   background-position: 0 -72px;
 }
 
-  .btn-social-long-vikingspots:hover{
+  .social-long-vikingspots:hover{
     background-position: 0 -96px;
   }
 
-  .btn-social-long-vikingspots:active{
+  .social-long-vikingspots:active{
     background-position: 0 -120px;
   }
 
-.btn-social-long-foursquare{
+.social-long-foursquare{
   background-position: 0 -144px;
 }
 
-  .btn-social-long-foursquare:hover{
+  .social-long-foursquare:hover{
     background-position: 0 -168px;
   }
 
-  .btn-social-long-foursquare:active{
+  .social-long-foursquare:active{
     background-position: 0 -192px;
   }
 
-.btn-social-long-facebook{
+.social-long-facebook{
   background-position: 0 -216px;
 }
 
-  .btn-social-long-facebook:hover{
+  .social-long-facebook:hover{
     background-position: 0 -240px;
   }
 
-  .btn-social-long-facebook:active{
+  .social-long-facebook:active{
     background-position: 0 -264px;
   }
 
 
-[class^="btn-social-square-"],
-[class*=" btn-social-square-"] {
+[class^="social-square-"],
+[class*=" social-square-"] {
   width: 36px;
   height: 36px;
   background-position: -34px 0;
 }
 
-.btn-social-square-twitter{
+.social-square-twitter{
   background-position: -177px 0;
 }
 
-  .btn-social-square-twitter:hover{
+  .social-square-twitter:hover{
     background-position: -177px -37px;
   }
 
-  .btn-social-square-twitter:active{
+  .social-square-twitter:active{
     background-position: -177px -74px;
   }
 
-.btn-social-square-vikingspots{
+.social-square-vikingspots{
   background-position: -214px 0;
 }
 
-  .btn-social-square-vikingspots:hover{
+  .social-square-vikingspots:hover{
     background-position: -214px -37px;
   }
 
-  .btn-social-square-vikingspots:active{
+  .social-square-vikingspots:active{
     background-position: -214px -74px;
   }
 
-.btn-social-square-foursquare{
+.social-square-foursquare{
   background-position: -251px 0;
 }
 
-  .btn-social-square-foursquare:hover{
+  .social-square-foursquare:hover{
     background-position: -251px -37px;
   }
 
-  .btn-social-square-foursquare:active{
+  .social-square-foursquare:active{
     background-position: -251px -74px;
   }
 
-.btn-social-square-facebook{
+.social-square-facebook{
   background-position: -288px 0;
 }
 
-  .btn-social-square-facebook:hover{
+  .social-square-facebook:hover{
     background-position: -288px -37px;
   }
 
-  .btn-social-square-facebook:active{
+  .social-square-facebook:active{
     background-position: -288px -74px;
   }
 
