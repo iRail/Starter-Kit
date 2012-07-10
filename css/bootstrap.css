@@ -1556,125 +1556,319 @@ legend + .control-group {
   padding-left: 160px;
 }
 
-[class^="social-"],
-[class*=" social-"] {
-  display: inline-block;
-  background-image: url("../img/signin_sprite.png");
-  background-repeat: no-repeat;
-  text-indent: -999px;
-  margin: 5px 0 0 0;
+.btn-long{
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 190px;
+  height: 24px;
+  text-indent: 25px;
+  line-height: 22px;
+  color: white;
+  margin: 5px;
 }
-
-[class^="social-long-"],
-[class*=" social-long-"] {
-  width: 152px;
-  height: 23px;
-}
-
-.social-long-twitter:hover{
-    background-image: url("../img/signin_sprite.png");
-}
-
-  .social-long-twitter:hover{
-    background-position: 0 -24px;
+  
+  .btn-long a{
+    color: white;
   }
 
-  .social-long-twitter:active{
-    background-position: 0 -48px;
-  }
-
-.social-long-vikingspots{
-  background-position: 0 -72px;
-}
-
-  .social-long-vikingspots:hover{
-    background-position: 0 -96px;
-  }
-
-  .social-long-vikingspots:active{
-    background-position: 0 -120px;
-  }
-
-.social-long-foursquare{
-  background-position: 0 -144px;
-}
-
-  .social-long-foursquare:hover{
-    background-position: 0 -168px;
-  }
-
-  .social-long-foursquare:active{
-    background-position: 0 -192px;
-  }
-
-.social-long-facebook{
-  background-position: 0 -216px;
-}
-
-  .social-long-facebook:hover{
-    background-position: 0 -240px;
-  }
-
-  .social-long-facebook:active{
-    background-position: 0 -264px;
-  }
-
-
-[class^="social-square-"],
-[class*=" social-square-"] {
+.btn-square{
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   width: 36px;
   height: 36px;
-  background-position: -34px 0;
+  margin: 5px;
 }
 
-.social-square-twitter{
-  background-position: -177px 0;
+.btn-facebook{
+  border: 1px solid #3D5683;
+  background-image: linear-gradient(bottom, rgb(85,141,232) 100%, rgb(72,120,196) 87%, rgb(59,98,160) 0%);
+  background-image: -o-linear-gradient(bottom, rgb(85,141,232) 100%, rgb(72,120,196) 87%, rgb(59,98,160) 0%);
+  background-image: -moz-linear-gradient(bottom, rgb(85,141,232) 100%, rgb(72,120,196) 87%, rgb(59,98,160) 0%);
+  background-image: -webkit-linear-gradient(bottom, rgb(85,141,232) 100%, rgb(72,120,196) 87%, rgb(59,98,160) 0%);
+  background-image: -ms-linear-gradient(bottom, rgb(85,141,232) 100%, rgb(72,120,196) 87%, rgb(59,98,160) 0%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(1, rgb(85,141,232)),
+    color-stop(0.87, rgb(72,120,196)),
+    color-stop(0, rgb(59,98,160))
+  );
 }
 
-  .social-square-twitter:hover{
-    background-position: -177px -37px;
+  .btn-facebook:hover{
+    background-image: linear-gradient(bottom, rgb(85,141,232) 100%, rgb(78,129,212) 87%, rgb(70,113,189) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(85,141,232) 100%, rgb(78,129,212) 87%, rgb(70,113,189) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(85,141,232) 100%, rgb(78,129,212) 87%, rgb(70,113,189) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(85,141,232) 100%, rgb(78,129,212) 87%, rgb(70,113,189) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(85,141,232) 100%, rgb(78,129,212) 87%, rgb(70,113,189) 0%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(1, rgb(85,141,232)),
+      color-stop(0.87, rgb(78,129,212)),
+      color-stop(0, rgb(70,113,189))
+    );
   }
 
-  .social-square-twitter:active{
-    background-position: -177px -74px;
+  .btn-facebook:active{
+    background-image: linear-gradient(bottom, rgb(41,68,112) 100%, rgb(78,129,212) 11%, rgb(85,141,232) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(41,68,112) 100%, rgb(78,129,212) 11%, rgb(85,141,232) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(41,68,112) 100%, rgb(78,129,212) 11%, rgb(85,141,232) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(41,68,112) 100%, rgb(78,129,212) 11%, rgb(85,141,232) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(41,68,112) 100%, rgb(78,129,212) 11%, rgb(85,141,232) 0%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(1, rgb(41,68,112)),
+      color-stop(0.11, rgb(78,129,212)),
+      color-stop(0, rgb(85,141,232))
+    );
   }
 
-.social-square-vikingspots{
-  background-position: -214px 0;
+  .btn-long .emblem-facebook{
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 3px 2px;
+  }
+
+  .btn-square .emblem-facebook{
+    background-size: 36px;
+    line-height: 36px;
+    background-repeat: no-repeat;
+    text-indent: -999px;
+  }
+
+    .emblem-facebook{
+      background-image: url(../img/icon-facebook.svg);
+    }
+
+
+.btn-vikingspots{
+  border: 1px solid #892828;
+  background-image: linear-gradient(bottom, rgb(218,11,11) 70%, rgb(120,36,36) 0%);
+  background-image: -o-linear-gradient(bottom, rgb(218,11,11) 70%, rgb(120,36,36) 0%);
+  background-image: -moz-linear-gradient(bottom, rgb(218,11,11) 70%, rgb(120,36,36) 0%);
+  background-image: -webkit-linear-gradient(bottom, rgb(218,11,11) 70%, rgb(120,36,36) 0%);
+  background-image: -ms-linear-gradient(bottom, rgb(218,11,11) 70%, rgb(120,36,36) 0%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.7, rgb(218,11,11)),
+    color-stop(0, rgb(120,36,36))
+  );
 }
 
-  .social-square-vikingspots:hover{
-    background-position: -214px -37px;
+  .btn-vikingspots:hover{
+    background-image: linear-gradient(bottom, rgb(218,11,11) 32%, rgb(186,61,61) 0%, rgb(255,61,61) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(218,11,11) 32%, rgb(186,61,61) 0%, rgb(255,61,61) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,11,11) 32%, rgb(186,61,61) 0%, rgb(255,61,61) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,11,11) 32%, rgb(186,61,61) 0%, rgb(255,61,61) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,11,11) 32%, rgb(186,61,61) 0%, rgb(255,61,61) 100%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.32, rgb(218,11,11)),
+      color-stop(0, rgb(186,61,61)),
+      color-stop(1, rgb(255,61,61))
+    );
   }
 
-  .social-square-vikingspots:active{
-    background-position: -214px -74px;
+  .btn-vikingspots:active{
+    background-image: linear-gradient(bottom, rgb(218,11,11) 0%, rgb(133,44,44) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(218,11,11) 0%, rgb(133,44,44) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,11,11) 0%, rgb(133,44,44) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,11,11) 0%, rgb(133,44,44) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,11,11) 0%, rgb(133,44,44) 100%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(218,11,11)),
+      color-stop(1, rgb(133,44,44))
+    );
   }
 
-.social-square-foursquare{
-  background-position: -251px 0;
+    .btn-square .emblem-vikingspots{
+      background-position: 4px 3px;
+      background-repeat: no-repeat;
+      background-size: 28px;
+      text-indent: -999px;
+      line-height: 36px;
+    }
+
+    .btn-long .emblem-vikingspots{
+      background-repeat: no-repeat;
+      background-position: 3px 3px;
+      background-size: 18px;  
+    }
+
+      .emblem-vikingspots{
+        background-image: url(../img/icon-vikingspots.svg);
+      }
+
+
+.btn-foursquare{
+    border: 1px solid #15729B;
+    background-image: linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 84%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 84%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 84%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 84%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 84%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.11, rgb(25,126,181)),
+      color-stop(0.84, rgb(46,173,219)),
+      color-stop(1, rgb(126,211,247)),
+      color-stop(0, rgb(25,126,181))
+    );
 }
 
-  .social-square-foursquare:hover{
-    background-position: -251px -37px;
+  .btn-foursquare:hover{
+    background-image: linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 46%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 46%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 46%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 46%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(25,126,181) 11%, rgb(46,173,219) 46%, rgb(126,211,247) 100%, rgb(25,126,181) 0%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.11, rgb(25,126,181)),
+      color-stop(0.46, rgb(46,173,219)),
+      color-stop(1, rgb(126,211,247)),
+      color-stop(0, rgb(25,126,181))
+    );
   }
 
-  .social-square-foursquare:active{
-    background-position: -251px -74px;
+  .btn-foursquare:active{
+    background-image: linear-gradient(bottom, rgb(25,126,181) 94%, rgb(46,173,219) 9%, rgb(126,211,247) 0%, rgb(25,126,181) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(25,126,181) 94%, rgb(46,173,219) 9%, rgb(126,211,247) 0%, rgb(25,126,181) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(25,126,181) 94%, rgb(46,173,219) 9%, rgb(126,211,247) 0%, rgb(25,126,181) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(25,126,181) 94%, rgb(46,173,219) 9%, rgb(126,211,247) 0%, rgb(25,126,181) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(25,126,181) 94%, rgb(46,173,219) 9%, rgb(126,211,247) 0%, rgb(25,126,181) 100%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.94, rgb(25,126,181)),
+      color-stop(0.09, rgb(46,173,219)),
+      color-stop(0, rgb(126,211,247)),
+      color-stop(1, rgb(25,126,181))
+    );
   }
 
-.social-square-facebook{
-  background-position: -288px 0;
+.btn-twitter{
+  border: 1px solid #27A2CC;
+  background-image: linear-gradient(top, rgb(168,209,239) 0%, rgb(81,182,229) 5%, rgb(42,169,224) 95%, rgb(37,140,184) 100%);
+  background-image: -o-linear-gradient(top, rgb(168,209,239) 0%, rgb(81,182,229) 5%, rgb(42,169,224) 95%, rgb(37,140,184) 100%);
+  background-image: -moz-linear-gradient(top, rgb(168,209,239) 0%, rgb(81,182,229) 5%, rgb(42,169,224) 95%, rgb(37,140,184) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(168,209,239) 0%, rgb(81,182,229) 5%, rgb(42,169,224) 95%, rgb(37,140,184) 100%);
+  background-image: -ms-linear-gradient(top, rgb(168,209,239) 0%, rgb(81,182,229) 5%, rgb(42,169,224) 95%, rgb(37,140,184) 100%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(168,209,239)),
+    color-stop(0.05, rgb(81,182,229)),
+    color-stop(0.95, rgb(42,169,224)),
+    color-stop(1, rgb(37,140,184))
+  );
 }
 
-  .social-square-facebook:hover{
-    background-position: -288px -37px;
+  .btn-twitter:hover{
+    background-image: linear-gradient(bottom, rgb(168,209,239) 100%, rgb(141,195,231) 95%, rgb(86,174,225) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(168,209,239) 100%, rgb(141,195,231) 95%, rgb(86,174,225) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(168,209,239) 100%, rgb(141,195,231) 95%, rgb(86,174,225) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(168,209,239) 100%, rgb(141,195,231) 95%, rgb(86,174,225) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(168,209,239) 100%, rgb(141,195,231) 95%, rgb(86,174,225) 0%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(1, rgb(168,209,239)),
+      color-stop(0.95, rgb(141,195,231)),
+      color-stop(0, rgb(86,174,225))
+    );
   }
 
-  .social-square-facebook:active{
-    background-position: -288px -74px;
+  .btn-twitter:active{
+    border-color: #228DAA;
+    background-image: linear-gradient(bottom, rgb(37,131,168) 100%, rgb(81,182,229) 22%, rgb(168,209,239) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(37,131,168) 100%, rgb(81,182,229) 22%, rgb(168,209,239) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(37,131,168) 100%, rgb(81,182,229) 22%, rgb(168,209,239) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(37,131,168) 100%, rgb(81,182,229) 22%, rgb(168,209,239) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(37,131,168) 100%, rgb(81,182,229) 22%, rgb(168,209,239) 0%);
+
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(1, rgb(37,131,168)),
+      color-stop(0.22, rgb(81,182,229)),
+      color-stop(0, rgb(168,209,239))
+    );
   }
 
+.btn-square .emblem-foursquare{
+  background-size: 36px;
+  line-height: 36px;
+  background-repeat: no-repeat;
+  text-indent: -999px;
+}
+
+.btn-square .emblem-foursquare{
+  background-size: 30px;
+  line-height: 30px;
+  background-position: 3px 3px;
+  background-repeat: no-repeat;
+  text-indent: -999px;
+}
+
+.btn-long .emblem-foursquare{
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 3px 3px;
+}
+
+  .emblem-foursquare{
+    background-image: url(../img/icon-foursquare.svg);
+  }
+
+.btn-square .emblem-twitter{
+  background-size: 30px;
+  line-height: 30px;
+  background-position: 4px 3px;
+  background-repeat: no-repeat;
+  text-indent: -999px;
+}
+
+.btn-long .emblem-twitter{
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-position: 3px 3px;
+}
+
+  .emblem-twitter{
+    background-image: url(../img/icon-twitter.svg);
+  }
 
 .btn {
   display: inline-block;
